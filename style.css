@@ -1,0 +1,202 @@
+body{
+    background-image: url('OIP.jpg');
+}
+a{
+    background-color: cornflowerblue;
+}
+a:hover{
+    color:white;
+    font-size:17px;
+    font-style:italic;
+    background-color: coral;
+    border-radius: 8px;
+
+}
+.dropdown-menu a:hover{
+    background-color: coral;
+
+
+}
+.header{
+    opacity:90%;
+}
+
+
+
+/* General Form Styling */
+form {
+    background-color:black;
+    opacity:70%;
+    color:white;
+    border-radius: 10px; /* Rounded corners */
+    background-image: url('oip.jfif');
+
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    max-width: 600px;
+    margin: 0 auto;
+}
+h6{
+    color:yellow;
+}
+
+#send{
+    background-color:brown;
+    
+}
+#toggle{
+    background-color:brown;
+
+}
+/* Input Fields Styling */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; /* Space between inputs */
+    border: 2px solid #ccc; /* Light border */
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensures padding is within the width */
+    transition: border-color 0.3s ease-in-out; /* Smooth border color change */
+}
+
+/* Focus Styling for Input Fields */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #007bff; /* Blue border when focused */
+    outline: none; /* Removes default outline */
+}
+
+/* Placeholder Styling */
+input::placeholder,
+textarea::placeholder {
+    color: #aaa; /* Light gray color for placeholder text */
+    font-style: italic; /* Italicize placeholder text */
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+}
+
+/* Submit Button Hover Effect */
+input[type="submit"]:hover {
+    background-color:violet; /* Darker blue on hover */
+    color:white;
+}
+
+/* Radio Button Styling */
+input[type="radio"] {
+    margin-right: 8px; /* Spacing between radio and label */
+}
+
+/* Form Links Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Form Labels Styling */
+label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    display: block; /* Ensures labels are on separate lines */
+    color: #333;
+}
+
+/* Responsive Form (For smaller screens) */
+@media (max-width: 768px) {
+    form {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    textarea,
+    input[type="submit"] {
+        font-size: 1rem; /* Adjust font size */
+    }
+}
+
+
+
+
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #333 !important;
+}
+
+body.dark-mode .form,
+body.dark-mode .login,
+body.dark-mode .about,
+body.dark-mode .contact,
+body.dark-mode footer {
+    background-color: #1e1e1e !important;
+    color: #ffffff;
+}
+
+body.dark-mode .card {
+    background-color: #333;
+    color: #ffffff;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-control:focus {
+    background-color: #333;
+    color: #ffffff;
+    border-color: #555;
+}
+
+body.dark-mode .btn-outline-success {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+body.dark-mode .btn-outline-success:hover {
+    background-color: #ffffff;
+    color: #000000;
+    
+}
+
+
+.load-more:hover{
+    background-color:gray;
+    color:black;
+    font-size:17px;
+}
+.sub:hover{
+    background-color:violet;
+    color:black;
+    font-size:17px;
+
+
+}
+
+
